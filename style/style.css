@@ -14,7 +14,7 @@
 .section-content {
     max-width: 525px;
     text-align: right;
-    margin: 216px 230px 364px 845px;
+    padding: 216px 230px 364px 845px;
 }
 
 .section-container .section-content h1 {
@@ -91,4 +91,84 @@
 .plan-list .plan-details p {
     color: #737272;
     font-size: 16px;
+}
+
+.contact {
+    background-image: url('../images/watch.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.contact .contact-img {
+    position: absolute;
+}
+
+.contact .contact-details {
+    position: relative;
+    padding: 60px 610px 24px 64px;
+    color: white;
+}
+
+.contact .contact-details h1 {
+    font-size: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 577px;
+    background-color: #151414;
+}
+
+.footer-container {
+    display: flex;
+    gap: 330px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.footer-container .footer-left h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-container .footer-left p {
+    color: #ffff;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-container .footer-left div img {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.footer-container .footer-right h2 {
+    color: white;
+    margin-bottom: 31px;
+}
+
+.input {
+    color: white;
+    width: 325px;
+    padding: 21px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid white;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #F15B22;
+    padding: 24px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }
